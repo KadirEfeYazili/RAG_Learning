@@ -3,12 +3,12 @@ problem tanımı : Sözleşme asistanı
                  Kullanıcının yükeldiği bir sözeleşme dosyasından içerik çıkarmak
                  bu içeriği vektörel olarak temsil edelim yani (embedding yapalım)
                  faiss kullanarak hızlı arama yapabilen bir vektör veri tabanı oluştur
-                 kullanıcı sorularını al, sonra git db den bilgiyi getir, sonra gpt 3.5 ile cevapla
+                 kullanıcı sorularını al, sonra git db den bilgiyi getir, sonra gemini ile cevapla
 
 kullanılan teknojiler:
     - embedding: metni vektörleştirme
     - faiss: hizli beznerlik aramasi icin vektor veri tabanı
-    - gpt 3.5: metin üretimi ve cevaplama
+    - gemini: metin üretimi ve cevaplama
 
 RAG: Retrieval Augmented Generation : dil modellerine bilgi desteği sağlayan bir teknik
     - kullanici sorularini al, ilgili bilgileri veri tabanından getir,sonra gpt ile cevapla
